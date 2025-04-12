@@ -1,0 +1,10 @@
+ethers.utils.formatEther(totalSupply)
+await contract.totalSupply()
+await contract.symbol()
+await contract.name()
+await contract.name
+contract.target
+contract
+contract.address
+const contract = await ethers.getContractAt("SimpleDeFiToken", "0x5FbDB2315678afecb367f032d93F642f64180aa3")
+const contract = await ethers.getContractAt("SimpleDeFiToken",

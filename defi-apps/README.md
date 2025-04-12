@@ -11,3 +11,11 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
+
+## How to deploy smart contract to localhost by using ignition
+
+npx hardhat ignition deploy ignition/modules/Lock.js --network localhost
+
+## How to deploy smart contract to sepolia testnet by using ignition
+
+npx hardhat ignition deploy ignition/modules/Lock.js --network sepolia
