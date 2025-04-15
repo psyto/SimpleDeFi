@@ -3,13 +3,27 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-        "@openzeppelin/contracts": "^5.3.0",
-        "@testing-library/dom": "^10.4.0",
-        "@testing-library/jest-dom": "^6.6.3",
-        "@testing-library/react": "^16.3.0",
+        "@emotion/react": "^11.10.6",
+        "@emotion/styled": "^11.10.6",
+        "@ethersproject/providers": "^5.7.2",
+        "@mui/icons-material": "^5.11.11",
+        "@mui/material": "^5.11.13",
+        "@openzeppelin/contracts": "^4.8.1",
+        "@testing-library/jest-dom": "^5.16.5",
+        "@testing-library/react": "^13.4.0",
         "@testing-library/user-event": "^13.5.0",
-        "react": "^19.1.0",
-        "react-dom": "^19.1.0",
+        "@web3-react/core": "^6.1.9",
+        "@web3-react/injected-connector": "^6.0.7",
+        "@web3-react/walletconnect-connector": "^6.2.13",
+        "@web3-react/walletlink-connector": "^6.2.14",
+        "buffer": "^6.0.3",
+        "chai": "^4.3.7",
+        "ethers": "^5.7.2",
+        "json-rpc-engine": "^6.1.0",
+        "material-ui-popup-state": "^5.0.5",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.9.0",
         "react-scripts": "5.0.1",
         "web-vitals": "^2.1.4"
     },
@@ -18,7 +32,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "deploy": "hardhat ignition deploy ignition/modules/Lock.js --network"
+        "deploy": "hardhat ignition deploy ignition/modules/Lock.cjs --network"
     },
     "eslintConfig": {
         "extends": [
@@ -39,7 +53,13 @@
         ]
     },
     "devDependencies": {
-        "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-        "hardhat": "^2.23.0"
+        "@nomicfoundation/hardhat-ignition-ethers": "^0.15.11",
+        "@nomiclabs/hardhat-ethers": "^2.2.3",
+        "@nomiclabs/hardhat-etherscan": "^3.1.7",
+        "@typechain/ethers-v5": "^10.2.0",
+        "@typechain/hardhat": "^6.1.5",
+        "hardhat": "^2.19.4",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
     }
 }
